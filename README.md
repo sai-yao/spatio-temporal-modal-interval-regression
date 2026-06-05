@@ -32,11 +32,11 @@ Before running, provide the input data vectors:
 
 * `X` — training set covariate vector for the first spatial covariate
 * `Y` — training set covariate vector for the second spatial covariate
-* `T` — training set covariate vector for the temporal covariate
+* `T` — training set temporal covariate vector, scaled to the range [0, 1]
 * `Z` — training set response vector
 * `test_X` — test set covariate vector for the first spatial covariate
 * `test_Y` — test set covariate vector for the second spatial covariate
-* `test_T` — test set covariate vector for the temporal covariate
+* `test_T` — test set temporal covariate vector, scaled to the range [0, 1]
 * `test_Z` — test set response vector
 
 Typical parameters you may want to adjust include:
